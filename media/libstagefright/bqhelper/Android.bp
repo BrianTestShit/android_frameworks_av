@@ -63,7 +63,11 @@ cc_library_shared {
     ],
 
     product_variables: {
+<<<<<<< HEAD
         lineage: {
+=======
+        havoc: {
+>>>>>>> ba4130995... stagefright: omx: Don't signal dataspace change on legacy QCOM
             uses_qcom_bsp_legacy: {
                 cppflags: ["-DQCOM_BSP_LEGACY"],
             },
